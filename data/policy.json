@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "agent_tools": [
+    "check_rain",
+    "list_due",
+    "retrieve_swppp",
+    "compute_actions",
+    "draft_report"
+  ],
+  "rain_threshold_in": "0.25",
+  "max_station_km": 10,
+  "max_age_hours": 2,
+  "prohibited": [
+    "complete_inspection",
+    "sign",
+    "submit",
+    "write_source"
+  ],
+  "permit_scope": "EPA 2022 CGP Part 4.2 baseline only"
+}

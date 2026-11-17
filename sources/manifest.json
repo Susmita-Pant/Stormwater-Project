@@ -1,0 +1,26 @@
+[
+  {
+    "file": "epa_2022_cgp.pdf",
+    "url": "https://www.epa.gov/system/files/documents/2022-01/2022-cgp-final-permit.pdf",
+    "retrieved_utc": "2026-11-01T00:18:20.140994+00:00",
+    "sha256": "3ac0d326eaf7390bb56a99489968deedade2ba804123915c243b10b804be4830",
+    "bytes": 1542527,
+    "note": "EPA original 2022 permit, cached for reproducibility. Review current modifications before real use."
+  },
+  {
+    "file": "public_rain.csv",
+    "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=ABQ&data=p01i&year1=2025&month1=10&day1=1&year2=2025&month2=10&day2=8&tz=Etc/UTC&format=onlycomma&latlon=yes&missing=M&trace=T&direct=no&report_type=3",
+    "retrieved_utc": "2026-11-01T00:18:20.142042+00:00",
+    "sha256": "7024e3a6d2f1bacb037198f1286aa4de6049b3d7c9b5c38e0dc57a8afc389314",
+    "bytes": 7436,
+    "note": "Iowa Environmental Mesonet archive of NWS/ASOS routine reports. Raw p01i precipitation is not automatically a fixed non-overlapping hourly increment."
+  },
+  {
+    "file": "iem_hourly.csv",
+    "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/hourlyprecip.py?network=NM_ASOS&station=ABQ&sts=2025-10-01T00:00:00Z&ets=2025-10-08T00:00:00Z&tz=UTC&lalo=1",
+    "retrieved_utc": "2026-11-01T00:19:23.086111+00:00",
+    "sha256": "47fe2a6c26fcf5fab07873cd31d361106d32be49b2238587a1309916984a8aac",
+    "bytes": 8632,
+    "note": "IEM processed hourly precipitation; retained separately from raw METAR. Hour-label semantics must be approved before operational ingestion."
+  }
+]

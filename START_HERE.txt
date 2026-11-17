@@ -1,0 +1,7 @@
+1. Read RUNBOOK.md.
+2. In this folder run: py -m pip install tzdata
+3. Run: py run_checks.py
+4. Run: py agent.py --mode fixture
+5. Open report.html in the printed output folder.
+6. Read docs/builder_explanation.md before presenting.
+7. Run Ollama mode and have your teammates complete independent review.

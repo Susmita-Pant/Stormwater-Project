@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S01 SWPPP 3.1",
+    "site_id": "S01",
+    "version": "teaching-v1",
+    "control": "silt_fence",
+    "text": "Inspect perimeter silt fence for tears, undermining and sediment buildup.",
+    "action": "Check fence condition and record observed defects."
+  },
+  {
+    "id": "S01 SWPPP 3.2",
+    "site_id": "S01",
+    "version": "teaching-v1",
+    "control": "inlet_protection",
+    "text": "Inspect inlet protection for damage, blockage and bypass flow.",
+    "action": "Check inlet protection and document blockage or bypass."
+  },
+  {
+    "id": "S01 SWPPP 3.3",
+    "site_id": "S01",
+    "version": "teaching-v1",
+    "control": "stabilized_exit",
+    "text": "Inspect the stabilized exit for sediment tracking onto adjacent pavement.",
+    "action": "Check the exit and document visible sediment tracking."
+  },
+  {
+    "id": "S02 SWPPP 3.1",
+    "site_id": "S02",
+    "version": "teaching-v1",
+    "control": "silt_fence",
+    "text": "Inspect perimeter silt fence for tears, undermining and sediment buildup.",
+    "action": "Check fence condition and record observed defects."
+  },
+  {
+    "id": "S02 SWPPP 3.2",
+    "site_id": "S02",
+    "version": "teaching-v1",
+    "control": "inlet_protection",
+    "text": "Inspect inlet protection for damage, blockage and bypass flow.",
+    "action": "Check inlet protection and document blockage or bypass."
+  },
+  {
+    "id": "S02 SWPPP 3.3",
+    "site_id": "S02",
+    "version": "teaching-v1",
+    "control": "stabilized_exit",
+    "text": "Inspect the stabilized exit for sediment tracking onto adjacent pavement.",
+    "action": "Check the exit and document visible sediment tracking."
+  },
+  {
+    "id": "S03 SWPPP 3.1",
+    "site_id": "S03",
+    "version": "teaching-v1",
+    "control": "silt_fence",
+    "text": "Inspect perimeter silt fence for tears, undermining and sediment buildup.",
+    "action": "Check fence condition and record observed defects."
+  },
+  {
+    "id": "S03 SWPPP 3.2",
+    "site_id": "S03",
+    "version": "teaching-v1",
+    "control": "inlet_protection",
+    "text": "Inspect inlet protection for damage, blockage and bypass flow.",
+    "action": "Check inlet protection and document blockage or bypass."
+  },
+  {
+    "id": "S03 SWPPP 3.3",
+    "site_id": "S03",
+    "version": "teaching-v1",
+    "control": "stabilized_exit",
+    "text": "Inspect the stabilized exit for sediment tracking onto adjacent pavement.",
+    "action": "Check the exit and document visible sediment tracking."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "suite": "builder regression",
+  "tests": 35,
+  "failures": 0,
+  "errors": 0,
+  "runtime_seconds": 0.7486069000005955,
+  "live_model_tested": false,
+  "independent_verification": false
+}

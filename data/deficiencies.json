@@ -1,0 +1,29 @@
+[
+  {
+    "id": "D01",
+    "site_id": "S01",
+    "discovered_at": "2026-09-27T18:00:00+00:00",
+    "kind": "major_corrective",
+    "domain_confirmed": true,
+    "possible_discharge": false,
+    "note": "Silt fence collapsed; replacement needed."
+  },
+  {
+    "id": "D02",
+    "site_id": "S02",
+    "discovered_at": "2026-09-28T18:00:00+00:00",
+    "kind": "routine",
+    "domain_confirmed": true,
+    "possible_discharge": false,
+    "note": "Remove debris at inlet protection."
+  },
+  {
+    "id": "D03",
+    "site_id": "S03",
+    "discovered_at": "2026-09-28T18:00:00+00:00",
+    "kind": "minor_corrective",
+    "domain_confirmed": false,
+    "possible_discharge": true,
+    "note": "Possible muddy discharge beyond site boundary. Inspector assessment required."
+  }
+]

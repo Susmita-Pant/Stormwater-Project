@@ -1,0 +1,337 @@
+[
+  {
+    "schema_version": "1.0",
+    "run_id": "5e28cb99379c4ee49384d73a9252e130",
+    "site_id": "S01",
+    "site_name": "Mesa access road",
+    "status": "DRAFT",
+    "inspection_status": "NOT_COMPLETED",
+    "inspector_of_record": "Synthetic inspector S01",
+    "mode": "fixture",
+    "as_of": "2026-10-02T00:00:00+00:00",
+    "rain_evidence": {
+      "station_id": "G01",
+      "distance_km": 1.437,
+      "representative_approved_by": "Synthetic domain lead",
+      "source": "SYNTHETIC hourly gauge; not public observations",
+      "window_start": "2026-09-26T00:00:00+00:00",
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "trigger_rule": "EPA CGP 4.2.2a; 4.2.3a",
+      "last_observation": "2026-10-02T00:00:00+00:00",
+      "issues": [],
+      "events": [
+        {
+          "event_id": "S01@2026-09-27T18:00:00+00:00",
+          "detected_at": "2026-09-27T18:00:00+00:00",
+          "trigger_earliest": "2026-09-27T17:00:00+00:00",
+          "rain_24h_in": "0.25",
+          "due_utc": "2026-09-28T17:00:00+00:00",
+          "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67"
+        },
+        {
+          "event_id": "S01@2026-09-30T18:00:00+00:00",
+          "detected_at": "2026-09-30T18:00:00+00:00",
+          "trigger_earliest": "2026-09-30T17:00:00+00:00",
+          "rain_24h_in": "0.30",
+          "due_utc": "2026-10-01T17:00:00+00:00",
+          "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67"
+        }
+      ],
+      "status": "OK"
+    },
+    "due_list": [
+      {
+        "kind": "routine",
+        "due_utc": "2026-10-02T16:00:00+00:00",
+        "state": "UPCOMING",
+        "basis": "Conservative same-time calendar interval; EPA CGP 4.2.1/4.2.2"
+      },
+      {
+        "kind": "storm",
+        "event_id": "S01@2026-09-27T18:00:00+00:00",
+        "detected_at": "2026-09-27T18:00:00+00:00",
+        "trigger_earliest": "2026-09-27T17:00:00+00:00",
+        "rain_24h_in": "0.25",
+        "due_utc": "2026-09-28T17:00:00+00:00",
+        "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67",
+        "state": "OVERDUE",
+        "completed_at": null
+      },
+      {
+        "kind": "storm",
+        "event_id": "S01@2026-09-30T18:00:00+00:00",
+        "detected_at": "2026-09-30T18:00:00+00:00",
+        "trigger_earliest": "2026-09-30T17:00:00+00:00",
+        "rain_24h_in": "0.30",
+        "due_utc": "2026-10-01T17:00:00+00:00",
+        "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67",
+        "state": "OVERDUE",
+        "completed_at": null
+      }
+    ],
+    "checklist": [
+      {
+        "control": "silt_fence",
+        "task": "Check fence condition and record observed defects.",
+        "quote": "Inspect perimeter silt fence for tears, undermining and sediment buildup.",
+        "citation": "S01 SWPPP 3.1",
+        "version": "teaching-v1"
+      },
+      {
+        "control": "inlet_protection",
+        "task": "Check inlet protection and document blockage or bypass.",
+        "quote": "Inspect inlet protection for damage, blockage and bypass flow.",
+        "citation": "S01 SWPPP 3.2",
+        "version": "teaching-v1"
+      },
+      {
+        "control": "stabilized_exit",
+        "task": "Check the exit and document visible sediment tracking.",
+        "quote": "Inspect the stabilized exit for sediment tracking onto adjacent pavement.",
+        "citation": "S01 SWPPP 3.3",
+        "version": "teaching-v1"
+      }
+    ],
+    "corrective_actions": [
+      {
+        "id": "D01",
+        "note": "Silt fence collapsed; replacement needed.",
+        "discovered_at": "2026-09-27T18:00:00+00:00",
+        "status": "DRAFT",
+        "immediate_action": "Inspector/operator must assess and take appropriate immediate steps.",
+        "completion_due": "2026-10-04T18:00:00+00:00",
+        "record_due": "2026-09-28T18:00:00+00:00",
+        "citation": "EPA CGP 5.2.1b-c",
+        "record_citation": "EPA CGP 5.4.1a"
+      }
+    ],
+    "escalations": [],
+    "field_observations": null,
+    "inspection_started_at": null,
+    "inspection_finished_at": null,
+    "signature": null,
+    "limitations": [
+      "Preparation draft only. Inspector must enter observations and certify in the external form.",
+      "Baseline Part 4.2 only; snowmelt, dewatering and special/reduced schedules need domain review.",
+      "Consecutive wet dates escalate; hourly crossings use conservative earliest-hour deadlines."
+    ],
+    "tool_trace": [
+      "check_rain",
+      "list_due",
+      "retrieve_swppp",
+      "compute_actions",
+      "draft_report"
+    ]
+  },
+  {
+    "schema_version": "1.0",
+    "run_id": "5e28cb99379c4ee49384d73a9252e130",
+    "site_id": "S02",
+    "site_name": "Arroyo staging area",
+    "status": "DRAFT",
+    "inspection_status": "NOT_COMPLETED",
+    "inspector_of_record": "Synthetic inspector S02",
+    "mode": "fixture",
+    "as_of": "2026-10-02T00:00:00+00:00",
+    "rain_evidence": {
+      "station_id": "G02",
+      "distance_km": 1.437,
+      "representative_approved_by": "Synthetic domain lead",
+      "source": "SYNTHETIC hourly gauge; not public observations",
+      "window_start": "2026-09-26T00:00:00+00:00",
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "trigger_rule": "EPA CGP 4.2.2a; 4.2.3a",
+      "last_observation": "2026-10-02T00:00:00+00:00",
+      "issues": [],
+      "events": [
+        {
+          "event_id": "S02@2026-09-27T18:00:00+00:00",
+          "detected_at": "2026-09-27T18:00:00+00:00",
+          "trigger_earliest": "2026-09-27T17:00:00+00:00",
+          "rain_24h_in": "0.25",
+          "due_utc": "2026-09-28T17:00:00+00:00",
+          "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67"
+        },
+        {
+          "event_id": "S02@2026-09-30T18:00:00+00:00",
+          "detected_at": "2026-09-30T18:00:00+00:00",
+          "trigger_earliest": "2026-09-30T17:00:00+00:00",
+          "rain_24h_in": "0.30",
+          "due_utc": "2026-10-01T17:00:00+00:00",
+          "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67"
+        }
+      ],
+      "status": "OK"
+    },
+    "due_list": [
+      {
+        "kind": "routine",
+        "due_utc": "2026-10-02T16:00:00+00:00",
+        "state": "UPCOMING",
+        "basis": "Conservative same-time calendar interval; EPA CGP 4.2.1/4.2.2"
+      }
+    ],
+    "checklist": [
+      {
+        "control": "silt_fence",
+        "task": "Check fence condition and record observed defects.",
+        "quote": "Inspect perimeter silt fence for tears, undermining and sediment buildup.",
+        "citation": "S02 SWPPP 3.1",
+        "version": "teaching-v1"
+      },
+      {
+        "control": "inlet_protection",
+        "task": "Check inlet protection and document blockage or bypass.",
+        "quote": "Inspect inlet protection for damage, blockage and bypass flow.",
+        "citation": "S02 SWPPP 3.2",
+        "version": "teaching-v1"
+      },
+      {
+        "control": "stabilized_exit",
+        "task": "Check the exit and document visible sediment tracking.",
+        "quote": "Inspect the stabilized exit for sediment tracking onto adjacent pavement.",
+        "citation": "S02 SWPPP 3.3",
+        "version": "teaching-v1"
+      }
+    ],
+    "corrective_actions": [
+      {
+        "id": "D02",
+        "note": "Remove debris at inlet protection.",
+        "discovered_at": "2026-09-28T18:00:00+00:00",
+        "status": "DRAFT",
+        "immediate_action": "Inspector/operator must assess and take appropriate immediate steps.",
+        "completion_due": "2026-09-29T23:00:00+00:00",
+        "record_due": null,
+        "citation": "EPA CGP 2.1.4b"
+      }
+    ],
+    "escalations": [],
+    "field_observations": null,
+    "inspection_started_at": null,
+    "inspection_finished_at": null,
+    "signature": null,
+    "limitations": [
+      "Preparation draft only. Inspector must enter observations and certify in the external form.",
+      "Baseline Part 4.2 only; snowmelt, dewatering and special/reduced schedules need domain review.",
+      "Consecutive wet dates escalate; hourly crossings use conservative earliest-hour deadlines."
+    ],
+    "tool_trace": [
+      "check_rain",
+      "list_due",
+      "retrieve_swppp",
+      "compute_actions",
+      "draft_report"
+    ]
+  },
+  {
+    "schema_version": "1.0",
+    "run_id": "5e28cb99379c4ee49384d73a9252e130",
+    "site_id": "S03",
+    "site_name": "North utility trench",
+    "status": "ESCALATE",
+    "inspection_status": "NOT_COMPLETED",
+    "inspector_of_record": "Synthetic inspector S03",
+    "mode": "fixture",
+    "as_of": "2026-10-02T00:00:00+00:00",
+    "rain_evidence": {
+      "station_id": "G03",
+      "distance_km": 1.437,
+      "representative_approved_by": "Synthetic domain lead",
+      "source": "SYNTHETIC hourly gauge; not public observations",
+      "window_start": "2026-09-26T00:00:00+00:00",
+      "as_of": "2026-10-02T00:00:00+00:00",
+      "trigger_rule": "EPA CGP 4.2.2a; 4.2.3a",
+      "last_observation": "2026-10-02T00:00:00+00:00",
+      "issues": [
+        "Missing hourly rain interval ending 2026-09-27T17:00:00+00:00"
+      ],
+      "events": [
+        {
+          "event_id": "S03@2026-09-30T18:00:00+00:00",
+          "detected_at": "2026-09-30T18:00:00+00:00",
+          "trigger_earliest": "2026-09-30T17:00:00+00:00",
+          "rain_24h_in": "0.30",
+          "due_utc": "2026-10-01T17:00:00+00:00",
+          "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67"
+        }
+      ],
+      "status": "ESCALATE"
+    },
+    "due_list": [
+      {
+        "kind": "routine",
+        "due_utc": "2026-10-02T16:00:00+00:00",
+        "state": "UPCOMING",
+        "basis": "Conservative same-time calendar interval; EPA CGP 4.2.1/4.2.2"
+      },
+      {
+        "kind": "storm",
+        "event_id": "S03@2026-09-30T18:00:00+00:00",
+        "detected_at": "2026-09-30T18:00:00+00:00",
+        "trigger_earliest": "2026-09-30T17:00:00+00:00",
+        "rain_24h_in": "0.30",
+        "due_utc": "2026-10-01T17:00:00+00:00",
+        "deadline_basis": "Conservative start of crossing hour; CGP 4.2.2a and footnote 67",
+        "state": "OVERDUE",
+        "completed_at": null
+      }
+    ],
+    "checklist": [
+      {
+        "control": "silt_fence",
+        "task": "Check fence condition and record observed defects.",
+        "quote": "Inspect perimeter silt fence for tears, undermining and sediment buildup.",
+        "citation": "S03 SWPPP 3.1",
+        "version": "teaching-v1"
+      },
+      {
+        "control": "inlet_protection",
+        "task": "Check inlet protection and document blockage or bypass.",
+        "quote": "Inspect inlet protection for damage, blockage and bypass flow.",
+        "citation": "S03 SWPPP 3.2",
+        "version": "teaching-v1"
+      },
+      {
+        "control": "stabilized_exit",
+        "task": "Check the exit and document visible sediment tracking.",
+        "quote": "Inspect the stabilized exit for sediment tracking onto adjacent pavement.",
+        "citation": "S03 SWPPP 3.3",
+        "version": "teaching-v1"
+      }
+    ],
+    "corrective_actions": [
+      {
+        "id": "D03",
+        "note": "Possible muddy discharge beyond site boundary. Inspector assessment required.",
+        "discovered_at": "2026-09-28T18:00:00+00:00",
+        "status": "ESCALATE",
+        "immediate_action": "Inspector/operator must assess and take appropriate immediate steps.",
+        "completion_due": null,
+        "record_due": null,
+        "citation": null,
+        "reason": "Possible discharge, unsupported condition, or unconfirmed classification; contact inspector now."
+      }
+    ],
+    "escalations": [
+      "Missing hourly rain interval ending 2026-09-27T17:00:00+00:00",
+      "Deficiency needs inspector assessment"
+    ],
+    "field_observations": null,
+    "inspection_started_at": null,
+    "inspection_finished_at": null,
+    "signature": null,
+    "limitations": [
+      "Preparation draft only. Inspector must enter observations and certify in the external form.",
+      "Baseline Part 4.2 only; snowmelt, dewatering and special/reduced schedules need domain review.",
+      "Consecutive wet dates escalate; hourly crossings use conservative earliest-hour deadlines."
+    ],
+    "tool_trace": [
+      "check_rain",
+      "list_due",
+      "retrieve_swppp",
+      "compute_actions",
+      "draft_report"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+Problem and user
+Our team proposes a local agentic AI system for a construction-site stormwater inspector and the contractor’s compliance manager. Today, they repeatedly check rainfall, track inspection due dates, consult the site’s stormwater pollution prevention plan (SWPPP), and prepare inspection paperwork while managing field work. The project will help answer: “Which sites need attention, what should I inspect, and what must I document next?”
+
+Proposed workflow
+The agent will: (1) read a synthetic site register, completed-inspection export and cached rainfall; (2) use Python to identify rain-triggered and routine inspections and calculate due times; (3) retrieve site-specific SWPPP sections and prepare a cited checklist; (4) generate a structured report draft with computed corrective-action deadlines and escalate missing evidence or possible discharges; and (5) record inputs, tool choices and outputs in a replayable audit log.
+
+Tools and operational interface
+We will use Python and local Ollama inference, following the class labs. Our proposed pilot interface is a file-based workflow around the EPA 2022 CGP Site Inspection Report Template: the compliance manager supplies a local inspection export, and the inspector reviews the draft and transfers verified information into the official form. We will confirm the contractor’s actual form and export before integration. The agent will have no completion, certification, submission or write-back capability.
+
+Main risk and response
+The main risk is treating off-site rainfall as representative of the construction site. Each result will identify the observation source, station distance and data coverage. The domain lead will approve station suitability and permit applicability; missing, stale or unsupported information will trigger human review. Python will apply documented work calendars and permit rules, while the model will be limited to grounded text and structured choices.
+
+Data and evaluation
+Site records, SWPPP clauses and deficiency logs will come from a reproducible project-specific synthetic generator based on the labs’ approach. Public inputs will include the EPA 2022 CGP and cached NWS/ASOS rainfall obtained through Iowa Environmental Mesonet. We will evaluate seeded missed inspections, deadline calculations, citation accuracy and blocked completion attempts, then measure inspector time per report. No employer or client data will be used. Susmita Pant will own the builder role; the other members will own domain review, independent verification and adoption. The system prepares and documents work; it does not perform inspections or replace the accountable inspector.

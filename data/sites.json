@@ -1,0 +1,101 @@
+[
+  {
+    "id": "S01",
+    "name": "Mesa access road",
+    "lat": 35.05,
+    "lon": -106.62,
+    "timezone": "America/Denver",
+    "schedule": "biweekly_rain",
+    "baseline_inspection": "2026-09-18T16:00:00+00:00",
+    "swppp_version": "teaching-v1",
+    "inspector": "Synthetic inspector S01",
+    "controls": [
+      "silt_fence",
+      "inlet_protection",
+      "stabilized_exit"
+    ],
+    "workdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "open": "07:00",
+    "close": "17:00",
+    "holidays": [],
+    "station": {
+      "id": "G01",
+      "lat": 35.059999999999995,
+      "lon": -106.63,
+      "approved_by": "Synthetic domain lead",
+      "source": "SYNTHETIC hourly gauge; not public observations"
+    }
+  },
+  {
+    "id": "S02",
+    "name": "Arroyo staging area",
+    "lat": 35.08,
+    "lon": -106.62,
+    "timezone": "America/Denver",
+    "schedule": "weekly",
+    "baseline_inspection": "2026-09-18T16:00:00+00:00",
+    "swppp_version": "teaching-v1",
+    "inspector": "Synthetic inspector S02",
+    "controls": [
+      "silt_fence",
+      "inlet_protection",
+      "stabilized_exit"
+    ],
+    "workdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "open": "07:00",
+    "close": "17:00",
+    "holidays": [],
+    "station": {
+      "id": "G02",
+      "lat": 35.089999999999996,
+      "lon": -106.63,
+      "approved_by": "Synthetic domain lead",
+      "source": "SYNTHETIC hourly gauge; not public observations"
+    }
+  },
+  {
+    "id": "S03",
+    "name": "North utility trench",
+    "lat": 35.12,
+    "lon": -106.62,
+    "timezone": "America/Denver",
+    "schedule": "biweekly_rain",
+    "baseline_inspection": "2026-09-18T16:00:00+00:00",
+    "swppp_version": "teaching-v1",
+    "inspector": "Synthetic inspector S03",
+    "controls": [
+      "silt_fence",
+      "inlet_protection",
+      "stabilized_exit"
+    ],
+    "workdays": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "open": "07:00",
+    "close": "17:00",
+    "holidays": [],
+    "station": {
+      "id": "G03",
+      "lat": 35.129999999999995,
+      "lon": -106.63,
+      "approved_by": "Synthetic domain lead",
+      "source": "SYNTHETIC hourly gauge; not public observations"
+    }
+  }
+]
